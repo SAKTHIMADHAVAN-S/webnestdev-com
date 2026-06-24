@@ -1,0 +1,6 @@
+{
+  "name": "WebNest.dev",
+  "description": "A 24/7 hybrid AI and Human Support live chat widget and SaaS platform with live ticketing, bot training knowledge base, and email / app push escalation routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
