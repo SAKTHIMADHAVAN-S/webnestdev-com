@@ -1,7 +1,5 @@
-{
-  "projectSettings": {
-    "framework": "services"
-  },
+
+  
   "experimentalServices": {
     "frontend": {
       "routePrefix": "/",
