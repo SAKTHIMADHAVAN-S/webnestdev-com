@@ -1,4 +1,17 @@
 {
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+{
   "projectSettings": {
     "framework": "services"
   },
@@ -13,19 +26,4 @@
     }
   }
 }
-
-{
-      "source": "/(.*)",
-      "destination": "/index.html"
-    "backend": {
-      "root": "backend",
-      "routePrefix": "/_/backend"
-    }
-  ]
-  }
-}
-
-
-
-
 
